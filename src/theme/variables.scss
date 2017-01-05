@@ -1,0 +1,95 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/v2/theming/
+@import "ionic.globals";
+
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
+
+$text-color: #07040c;
+$background-color: #ffffff;
+
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary:  #cb1b58,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light: #b7eff4,
+  dark:       #222,
+  action:#fff
+);
+
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+$action-sheet-ios-button-cancel-background:             #fff !default;
+$toolbar-ios-button-color:                #cb1b58;
+$toolbar-ios-title-text-color:        #fff;
+$searchbar-ios-border-color: rgba(0, 0, 0, 0);
+$searchbar-ios-border-color: rgba(0, 0, 0, 0);
+$searchbar-ios-input-search-icon-color: #cb1b58;
+$searchbar-md-input-box-shadow: rgba(255, 255, 255, 0.01);
+$toolbar-ios-background: #fff;
+$toolbar-ios-title-text-color:#cb1b58;
+
+
+  // App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+$toolbar-md-button-color:                 #fff;
+$toolbar-md-title-text-color:   #fff;
+$searchbar-md-input-search-icon-color: #cb1b58;
+$searchbar-md-input-box-shadow: #b5b5b5;
+
+$toolbar-md-title-text-color: #f4f4f4;
+$toolbar-md-button-color: #f4f4f4;
+$toolbar-md-background:  #cb1b58;
+$tabs-md-background: #fff;
+
+
+
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+$toolbar-wp-button-color:                 #fff;
+$toolbar-wp-title-text-color:   #fff;
+$searchbar-wp-input-search-icon-color: #cb1b58;
+
+$toolbar-wp-title-text-color: #f4f4f4;
+$toolbar-wp-button-color: #f4f4f4;
+$toolbar-wp-background:  #cb1b58;
+$tabs-wp-background: #fff;
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "ionic.theme.default";
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/v2/ionicons/
+
+$ionicons-font-path: "../assets/fonts";
+@import "ionicons";

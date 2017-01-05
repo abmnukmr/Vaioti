@@ -1,0 +1,71 @@
+page-home {
+
+}
+.titlebartext{
+  color: #eeebe8;
+}
+ion-content{
+}
+#flot{
+  z-index:3;
+}
+ .sop{
+   margin-left: 37px;
+
+ }
+ .header1{
+   color: rgba(251,244,251,0.95);
+ }
+ion-title{
+  color: #f4f4f4;
+}
+ ion-slides{
+   height: 180px;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+    }
+@-webkit-keyframes greenPulse {
+  from { background-color: #4c9eee; }
+  50% { background-color: #cb1b58;  }
+
+  to { background-color: #4c9eee;  }
+}
+
+ .trans{
+   width: 15px;
+   height: 15px;
+
+   -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+}
+ion-header{
+  background-color:#cb1b58;
+}
+ion-navbar{
+  color: #eeebe8;
+}
+
+
+.slider-pager-page
+{
+  color: #ffffff;
+}
+.slider-pager-page.active
+{
+  color: #cb1b58;
+}
+
+
+
+.platform-ios .ty{
+  align-items: flex-end;
+}
+.cardo{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
